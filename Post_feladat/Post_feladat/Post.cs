@@ -42,6 +42,6 @@ namespace Post_feladat
         {
             return $"{Author}, {Likes} kedvelés";
         }
-        public abstract int Score();
+        public abstract int Score(); 
     }
 }

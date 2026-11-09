@@ -40,7 +40,8 @@ namespace Post_feladat
         }
         public virtual string GetDescription()
         {
-            return $"";
+            return $"{Author}, {Likes} kedvelés";
         }
+        public abstract int Score();
     }
 }
